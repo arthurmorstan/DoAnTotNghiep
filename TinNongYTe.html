@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Nóng Y Tế</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel=" stylesheet" href="CSS/slick.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        body {
+        color: #8f9bad;
+        background-color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 1.7;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #203656;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            line-height: 1.4;
+            margin: 20px 0;
+        }
+
+        a {
+            color: #ad1deb;
+            outline: 0;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #203656;
+        }
+
+        a:focus {
+            outline: 0;
+        }
+    </style>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i>medicare</a>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#doctors">doctors</a>
+        <a href="#book">book</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        <a href="#">login/register</a>
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    
+    <!-- Welcome section -->
+    <section id="hero">
+        <div class="container-xl">
+            <div class="row gy-4">
+                <div class="col-lg-8">
+
+                        <div class="post featured-post-lg">
+                            <div class="details clearfix">
+                                <a href="#" class="category-badge">Hot news</a>
+                                <h2 class="post-title">
+                                    <a href="#">Bác sĩ 'nhờ' AI dự báo tác dụng phụ khi trị bệnh ung thư</a>
+                                </h2>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">Hoàng Duy</a>
+                                    </li>
+                                    <li class="list-inline-item">09 January 2002</li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner data-bg-image"><img src="images/TinNongYTe/DieuTri.jpg" alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-tabs rounded bordered">
+                        <ul class="nav nav-tabs nav-pills nav-fill" id="postTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button aria-controls="popular" aria-selected="true" class="nav-link active" data-bs-target="#popular"
+                                data-bs-toggle="tab" id="popular-tab" role="tab" type="button">Xem Nhiều</button>
+                            </li>
+                            <li class="nav-item" role="presentation">   
+                                <button aria-controls="popular" aria-selected="false" class="nav-link" data-bs-target="#recent"
+                                data-bs-toggle="tab" id="recent-tab" role="tab" type="button">Gần đây</button>
+                            </li>
+                        </ul>
+
+                        <!-- content  -->
+                        <div class="tab-content" id="postsTabContent">
+                            <!-- loader -->
+                            <div class="lds-dual-ring"></div>
+                            <!-- pop post  -->
+
+                            <div class="tab-pane fade show active" id="popular" aria-labelledby="popular-tab"
+                                role="tabpanel">
+                                <!-- post  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post2  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post3  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post4  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- recent -->
+                            <div class="tab-pane fade" id="recent" aria-labelledby="recent-tab" role="tabpanel">
+                                <!-- post  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/favicon.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post2  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/favicon.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post3  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- post4  -->
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">nguyen hoang duy, ngo cong hoang, pham hoang viet</a>
+                                        </h6>
+                                        <ul class="meta list-inline mt-1 mb-0">
+                                            <li class="list-inline-item">09 January 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main content -->
+
+    <section class="main-content">
+        <div class="container-xl">
+            <div class="row gy-4">
+                <!-- left side section -->
+                <div class="col-lg-8">
+                    <div class="section-header">
+                        <h3 class="section-title">Tin Được Xem Nhiều</h3>
+                    </div>
+
+                    <div class="padding-30 rounded bordered">
+                        <div class="row gy-5">
+                            <div class="col-sm-6">
+                                <!-- post -->
+                                <div class="post">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <ul class="meta list-inline mt-4 mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <img class="author" src="images/Unknown_person.jpg" alt="">
+                                                Hoàng Duy
+                                            </a>
+                                        </li>
+
+                                        <li class="list-inline-item">09 January 2002</li>
+                                    </ul>
+
+                                    <h5 class="post-title mb-3 mt-3">
+                                        <a href="#">Hoang Duy, Cong Hoang, Hoang Viet </a>
+                                    </h5>
+
+                                    <p class="excerpt mb-0">
+                                        This is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, aliquam.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="post post-list-sm square">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">
+                                                Hoang duy cong hoang hoang viet
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm square">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">
+                                                Huu huan cao long trong luong
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm square">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">
+                                                Quang vinh thanh nhan trung hieu
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm square">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">
+                                                sang tran bao hoang cong hoang
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="height: 100px;"></div>
+
+                    <div class="section-header">
+                        <h3 class="section-title">Những chủ đề tin tức nóng hổi khác</h3>
+                        <div class="slick-arrows-top">
+                            <buttton class="carousel-topNav-prev slick-custom-buttons" type="button"
+                                data-role="none" aria-label="Previous">
+                                <i class="icon-arrow-left"></i> 
+                            </buttton>
+                            <buttton class="carousel-topNav-next slick-custom-buttons" type="button"
+                                data-role="none" aria-label="Next">
+                                <i class="icon-arrow-right"></i>
+                            </buttton>
+                        </div>
+                    </div>
+
+                    <div class="row post-carousel-twoCol post-carousel">
+                        <div class="post post-over-content col-md-6">
+                            <div class="details clearfix">
+                                <h4 class="post-title">
+                                    <a href="#">Thành Tựu Y Khoa</a>
+                                </h4>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">Hoàng Duy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner">
+                                        <img src="images/PickNewsTopic/ThanhTuuYKhoa.png" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="post post-over-content col-md-6">
+                            <div class="details clearfix">
+                                <h4 class="post-title">
+                                    <a href="#">Blog Thầy Thuốc</a>
+                                </h4>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">Hoàng Duy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner">
+                                        <img src="images/PickNewsTopic/BlogThayThuoc.png" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="post post-over-content col-md-6">
+                            <div class="details clearfix">
+                                <h4 class="post-title">
+                                    <a href="#">Những Hi Sinh Thầm Lặng</a>
+                                </h4>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">Hoàng Duy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner">
+                                        <img src="images/PickNewsTopic/HySinhThamLang.png" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="post post-over-content col-md-6">
+                            <div class="details clearfix">
+                                <h4 class="post-title">
+                                    <a href="#">Mẹo Sống Khỏe</a>
+                                </h4>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">Hoàng Duy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner">
+                                        <img src="images/PickNewsTopic/MeoSongKhoe.png" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="spacer" data-height="50"></div>
+
+                    <div class="section-header">
+                        <h3 class="section-title">Tin Tức</h3>
+                    </div>
+
+                    <div class="padding-30 rounded bordered">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/gojou.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-sm-6">
+                                <!-- post -->
+                                <div class="post post-list clearfix">
+                                    <div class="thumb rounded">
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="meta list-inline mb-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <img src="images/Unknown_person.jpg" class="author" alt="">
+                                                </a>
+                                                Hoang Duy
+                                            </li>
+                                        </ul>
+
+                                        <h5 class="post-title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sit!
+                                            </a>
+                                        </h5>
+                                        <p class="excerpt mb-0">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, quam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="loadMore" id="loadMore">Xem Thêm</button>
+                            </div>
+
+                        </div>
+                        <!-- left part end here -->
+                    </div>
+                    <!-- right part start here -->
+                </div>
+                <!-- right side -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="widget rounded">
+                            <div class="widget-about text-center">
+                                <img src="images/favicon.png" class="logo" alt="">
+                                <p class="mb-4" style="text-align: justify;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corrupti illo placeat obcaecati magnam quod atque nemo nihil fugit voluptatibus molestiae pariatur ea? Illum molestias minus aut quod, veniam cumque!</p>
+                            </div>
+                        </div>
+
+                        <div class="widget rounded">
+                            <div class="widget-header text-center">
+                                <h3 class="widget-title">Tin Tức Được Quan Tâm</h3>
+                            </div>
+
+                            <div class="widget-content">
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <span class="number">1</span>
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quisquam?</a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <span class="number">2</span>
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quisquam?</a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <span class="number">3</span>
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quisquam?</a>
+                                        </h6>
+                                    </div>
+                                </div>
+
+                                <div class="post post-list-sm circle">
+                                    <div class="thumb circle">
+                                        <span class="number">4</span>
+                                        <a href="#">
+                                            <div class="inner">
+                                                <img src="images/robin.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="details clearfix">
+                                        <h6 class="post-title my-0">
+                                            <a href="#">Lorem ipsum dolor, sit amet  consectetur adipisicing elit. Minima, quisquam?</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget rounded">
+                            <div class="widget-header text-center">
+                                <h3 class="widget-title">Đóng góp ý kiến</h3>
+                            </div>
+                            <div class="widget-content">
+                                <span class="newsletter-headline text-center mb-3">Bạn muốn góp ý gì cho bệnh viện chúng tôi?</span>
+                                <form action="#">
+                                    <div class="mb-2">
+                                        <input type="email" class="form-control w-100 text-center"></div>
+                                    <button class="btn btn-default btn-full">Xác Nhận</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="widget rounded">
+                            <div class="widget-header text-center">
+                                <h3 class="widget-title">DÒNG SỰ KIỆN</h3>
+                            </div>
+                            <div class="widget-content">
+                                <div class="post-carousel-widget">
+
+                                    <div class="post post-carousel">
+                                        <div class="thumb rounded">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/robin.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h5 class="post-title mb-0 mt-4">
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repellat!</a>
+                                        </h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nam quibusdam autem delectus facilis voluptatum repellendus, pariatur reprehenderit repudiandae expedita?</p>
+                                    </div>
+
+                                    <div class="post post-carousel">
+                                        <div class="thumb rounded">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/gojou.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h5 class="post-title mb-0 mt-4">
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repellat!</a>
+                                        </h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nam quibusdam autem delectus facilis voluptatum repellendus, pariatur reprehenderit repudiandae expedita?</p>
+                                    </div>
+
+                                    <div class="post post-carousel">
+                                        <div class="thumb rounded">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/Unknown_person.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h5 class="post-title mb-0 mt-4">
+                                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repellat!</a>
+                                        </h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nam quibusdam autem delectus facilis voluptatum repellendus, pariatur reprehenderit repudiandae expedita?</p>
+                                    </div>
+                                </div>
+                                <div class="slick-arrows-bot">
+                                    <buttton class="carousel-botNav-prev slick-custom-buttons" type="button"
+                                        data-role="none" aria-label="Previous">
+                                        <i class="icon-arrow-left"></i>
+                                    </buttton>
+                                    <buttton class="carousel-botNav-next slick-custom-buttons" type="button"
+                                        data-role="none" aria-label="Next">
+                                        <i class="icon-arrow-right"></i>
+                                    </buttton>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i> home </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> services </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> about </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> doctors </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> book </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> review </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> blogs </a>
+            </div>
+    
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i> dental care </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> massage therapy </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> cardioloty </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> diagnosis </a>
+                <a href="#"><i class="fas fa-chevron-right"></i> ambulance service </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fas fa-facebook"></i> facebook </a>
+                <a href="#"><i class="fas fa-twitter"></i> twitter </a>
+                <a href="#"><i class="fas fa-instagram"></i> instagram </a>
+                <a href="#"><i class="fas fa-linkedin"></i> linkedin </a>
+                <a href="#"><i class="fas fa-pinterest"></i> pinterest </a>
+            </div>
+    
+            <div class="credit"> Copyright © 2024 This website. Powered by <span>mr. hoang viet</span></div>
+    
+    
+        </div>
+    
+    </section>
+    <!-- Javascript -->
+    <script src="Javascript/bootstrap.min.js"></script>
+    <script src="Javascript/jquery.min.js"></script>
+    <script src="Javascript/jquery.sticky-sidebar.min.js"></script>
+    <script src="Javascript/popper.min.js"></script>
+    <script src="Javascript/slick.min.js"></script>
+    <script src="Javascript/jquery.main.js"></script>
+</body>
+</html>
